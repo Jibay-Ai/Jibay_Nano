@@ -1,18 +1,4 @@
----
-license: apache-2.0
-language:
-- fa
-tags:
-- php
-- 8K Params
-- Jibay Nano
-- BPE
-- Transformer
-- Emmbding
-- Decoder
-- MTP
-pipeline_tag: text-generation
----
+
 
 ![Jibay Nano](https://huggingface.co/JibayAi/Jibay_nano/resolve/main/image_jibaynano.jpg)
 
