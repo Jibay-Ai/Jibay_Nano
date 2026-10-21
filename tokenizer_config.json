@@ -1,0 +1,26 @@
+{
+    "tokenizer_class": "JibayBPETokenizer",
+    "model_type": "BPE",
+    "vocab_file": "vocab.json",
+    "merges_file": "merges.txt",
+    "tokenizer_file": "tokenizer.json",
+    "unk_token": "<|unk|>",
+    "bos_token": "<|bos|>",
+    "eos_token": "<|eos|>",
+    "pad_token": "<|pad|>",
+    "special_tokens": [
+        "<|pad|>",
+        "<|bos|>",
+        "<|eos|>",
+        "<|unk|>"
+    ],
+    "pre_tokenizer": "unicode-word-pieces",
+    "normalizer": {
+        "space": "Ġ",
+        "tab": "ĉ",
+        "newline": "↵"
+    },
+    "vocab_size": 257,
+    "merge_count": 147,
+    "format_version": 1
+}

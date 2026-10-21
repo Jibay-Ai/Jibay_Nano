@@ -1,0 +1,85 @@
+{
+    "architectures": [
+        "JibayNanoForCausalLM"
+    ],
+    "model_type": "jibay_nano",
+    "model_name": "Jibay Nano",
+    "format_version": 1,
+    "dataset_sha256": "2375c4ff7b1a6260fe94258357576ffc594935554aa0eeaef6b4a4db1bb7a6df",
+    "tokenizer_sha256": "9dfcfe15d250f5619600005cd167ec2a4c382e550fe35cd11d103a0faee132fb",
+    "vocab_size": 257,
+    "d_model": 8,
+    "n_heads": 2,
+    "n_layers": 2,
+    "ff_dim": 16,
+    "max_position_embeddings": 68,
+    "max_context_source": "90th_percentile_training_sequence_length_and_corpus_token_count",
+    "generation_limit": 75,
+    "generation_limit_source": "90th_percentile_training_answer_length",
+    "trained_examples": 210,
+    "training_epochs": 10,
+    "best_epoch": 10,
+    "training_loss": 5.70917849040258307269368742709048092365264892578125,
+    "batch_size_last_training": 8,
+    "optimizer": "Adam",
+    "attention": "causal_multi_head_self_attention",
+    "normalization": "pre_layer_norm",
+    "activation": "GELU",
+    "mtp": "auxiliary_two_token_ahead_head_with_rejection_sampling",
+    "parameters": 8394,
+    "training_steps": 270,
+    "early_stopped": false,
+    "training_time_seconds": 776.33899784088134765625,
+    "epoch_losses": [
+        {
+            "epoch": 1,
+            "loss": 6.89570644812035737913902266882359981536865234375,
+            "batches": 27
+        },
+        {
+            "epoch": 2,
+            "loss": 6.668579120198270260289064026437699794769287109375,
+            "batches": 27
+        },
+        {
+            "epoch": 3,
+            "loss": 6.45462005242870962007373236701823770999908447265625,
+            "batches": 27
+        },
+        {
+            "epoch": 4,
+            "loss": 6.27901325085475736642592892167158424854278564453125,
+            "batches": 27
+        },
+        {
+            "epoch": 5,
+            "loss": 6.138531676455205143838611547835171222686767578125,
+            "batches": 27
+        },
+        {
+            "epoch": 6,
+            "loss": 6.03728823197773323272485868073999881744384765625,
+            "batches": 27
+        },
+        {
+            "epoch": 7,
+            "loss": 5.94271651380480392390381894074380397796630859375,
+            "batches": 27
+        },
+        {
+            "epoch": 8,
+            "loss": 5.86457146715646171486469029332511126995086669921875,
+            "batches": 27
+        },
+        {
+            "epoch": 9,
+            "loss": 5.78745444421690447001083157374523580074310302734375,
+            "batches": 27
+        },
+        {
+            "epoch": 10,
+            "loss": 5.70917849040258307269368742709048092365264892578125,
+            "batches": 27
+        }
+    ]
+}
